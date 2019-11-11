@@ -1,0 +1,15 @@
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Models\bin\Debug\TheWeddingOf.Models.dll
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Models\bin\Debug\TheWeddingOf.Models.pdb
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Models\bin\Debug\EntityFramework.dll
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Models\bin\Debug\EntityFramework.xml
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Models\obj\Debug\TheWeddingOf.Models.csprojAssemblyReference.cache
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Models\obj\Debug\TheWeddingOf.Models.csproj.CopyComplete
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Models\obj\Debug\TheWeddingOf.Models.dll
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Models\obj\Debug\TheWeddingOf.Models.pdb
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Models\bin\Debug\TheWeddingOf.Models.dll.config
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
