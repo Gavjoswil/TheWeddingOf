@@ -16,5 +16,10 @@ namespace TheWeddingOf.Web.Controllers
             var model = new RsvpListItem[0];
             return View(model);
         }
+
+        public ActionResult Create()
+        {
+            return View();
+        }
     }
 }
