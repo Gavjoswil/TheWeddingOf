@@ -15,9 +15,6 @@ namespace TheWeddingOf.Models
         [Display(Name="Ravioli")]
         public int FoodOne { get; set; }
 
-        public override string ToString()
-        {
-            return base.ToString();
-        }
+        public override string ToString() => Names;
     }
 }

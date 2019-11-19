@@ -14,9 +14,6 @@ namespace TheWeddingOf.Models
         public int FoodTwo { get; set; }
         public int FoodOne { get; set; }
 
-        public override string ToString()
-        {
-            return base.ToString();
-        }
+        public override string ToString() => Names;
     }
 }

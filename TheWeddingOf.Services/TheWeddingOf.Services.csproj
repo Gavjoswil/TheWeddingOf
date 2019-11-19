@@ -55,10 +55,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RsvpService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TheWeddingOf.Data\TheWeddingOf.Data.csproj">
+      <Project>{9423DB92-B7E4-46A8-A51C-1C2480FF40F8}</Project>
+      <Name>TheWeddingOf.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TheWeddingOf.Models\TheWeddingOf.Models.csproj">
+      <Project>{514E93CB-F3D4-4507-BCD5-7E818283B691}</Project>
+      <Name>TheWeddingOf.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
