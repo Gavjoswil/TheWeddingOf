@@ -237,6 +237,7 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Rsvp\Index.cshtml" />
     <Content Include="Views\Rsvp\Create.cshtml" />
+    <Content Include="Views\Home\Registry.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -2,10 +2,33 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+<div class="jumbotron text-center">
+    <h1>Jacquelyn and Gavin</h1>
+    <p class="lead">October 3, 2020 &bull; East Peoria, IL</p>
+    <p id="days">200</p>
+    <div>
+        <script type="text/javascript">
+            function countdown() {
+                var now = new Date();
+                var weddingDate = new Date(2020, 10, 3);
+
+                var currentDate = now.getTime();
+                var weddingDate = weddingDate.getTime();
+
+                var remainingTime = weddingDate - currentDate;
+
+                var s = Math.floor(remainingTime / 1000);
+                var m = Math.floor(s / 60);
+                var h = Math.floor(m / 60);
+                var d = Math.floor(h / 24);
+
+                document.getElementById("days").textContent = d + " Days to go!";
+            }
+
+            countdown();
+        </script>
+    </div>
+    <p><a href="../Rsvp/Create" class="btn btn-default btn-lg">RSVP &raquo;</a></p>
 </div>
 
 <div class="row">
@@ -18,9 +41,10 @@
         </p>
         <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+    <div class="col-md-4 text-center">
+        <h2>Ceremony and Reception</h2>
+        <p>Stoney Creek Hotel</p>
+        <p>101 Mariners Way, East Peoria, IL, 61611</p>
         <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
     </div>
     <div class="col-md-4">

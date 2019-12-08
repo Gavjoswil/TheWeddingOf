@@ -11,6 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWeddingOf.Models", "TheW
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWeddingOf.Data", "TheWeddingOf.Data\TheWeddingOf.Data.csproj", "{9423DB92-B7E4-46A8-A51C-1C2480FF40F8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{231D8552-63D1-49DF-956D-A7F9BDD9533D}"
+	ProjectSection(SolutionItems) = preProject
+		..\img\img_one.jpg = ..\img\img_one.jpg
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -19,5 +19,9 @@ namespace TheWeddingOf.Data
         public int FoodTwo { get; set; }
         [Required]
         public int FoodOne { get; set; }
+        [Key]
+        public int GroupId { get; set; }
+        [Required]
+        public bool YesOrNo { get; set; }
     }
 }

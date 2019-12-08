@@ -26,5 +26,10 @@ namespace TheWeddingOf.Web.Controllers
 
             return View();
         }
+
+        public ActionResult Registry()
+        {
+            return View();
+        }
     }
 }
