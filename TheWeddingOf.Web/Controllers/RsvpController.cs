@@ -39,5 +39,53 @@ namespace TheWeddingOf.Web.Controllers
 
             return RedirectToAction("Index");
         }
+
+        public ActionResult Edit(int id)
+        {
+            var service = CreateRsvpService();
+            var detail = service.GetRsvpById(id);
+            var model =
+                new RsvpEdit
+                {
+                    Names = detail.Names,
+                    RsvpId = detail.RsvpId,
+                    FoodOne = detail.FoodOne,
+                    FoodTwo = detail.FoodTwo,
+                    YayOrNay = detail.YayOrNay,
+                    Comments = detail.Comments
+                };
+            return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(int id, RsvpEdit model)
+        {
+            if (!ModelState.IsValid) return View(model);
+
+            if(model.RsvpId != id)
+            {
+                ModelState.AddModelError("", "Id Mismatch");
+                return View(model);
+            }
+
+            var service = CreateRsvpService();
+
+            if (service.UpdateRsvp(model))
+            {
+                TempData["SaveResult"] = "Your RSVP was sent";
+                return RedirectToAction("Index");
+            }
+
+            ModelState.AddModelError("", "Your RSVP Could not be sent.");
+            return View();
+        }
+
+        private RsvpService CreateRsvpService()
+        {
+            var userId = Guid.Parse(User.Identity.GetUserId());
+            var service = new RsvpService(userId);
+            return service;
+        }
     }
 }

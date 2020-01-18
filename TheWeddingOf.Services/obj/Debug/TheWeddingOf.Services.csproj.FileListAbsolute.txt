@@ -5,6 +5,12 @@ C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Services\bin\Debug\EntityFramework.d
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Services\bin\Debug\EntityFramework.SqlServer.dll
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Services\bin\Debug\TheWeddingOf.Data.dll
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Services\bin\Debug\TheWeddingOf.Models.dll
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Services\bin\Debug\TheWeddingOf.Data.pdb
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Services\bin\Debug\TheWeddingOf.Data.dll.config
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Services\bin\Debug\TheWeddingOf.Models.pdb
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Services\bin\Debug\TheWeddingOf.Models.dll.config
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Services\bin\Debug\EntityFramework.xml
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Services\bin\Debug\EntityFramework.SqlServer.xml
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
@@ -13,9 +19,3 @@ C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Services\obj\Debug\TheWeddingOf.Serv
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Services\obj\Debug\TheWeddingOf.Services.csproj.CopyComplete
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Services\obj\Debug\TheWeddingOf.Services.dll
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Services\obj\Debug\TheWeddingOf.Services.pdb
-C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Services\bin\Debug\TheWeddingOf.Data.dll
-C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Services\bin\Debug\TheWeddingOf.Models.dll
-C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Services\bin\Debug\TheWeddingOf.Data.pdb
-C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Services\bin\Debug\TheWeddingOf.Data.dll.config
-C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Services\bin\Debug\TheWeddingOf.Models.pdb
-C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Services\bin\Debug\TheWeddingOf.Models.dll.config

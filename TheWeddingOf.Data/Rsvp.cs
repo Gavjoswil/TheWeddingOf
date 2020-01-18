@@ -15,13 +15,13 @@ namespace TheWeddingOf.Data
         public Guid OwnerId { get; set; }
         [Required]
         public string Names { get; set; }
-        [Required]
+
         public int FoodTwo { get; set; }
-        [Required]
+
         public int FoodOne { get; set; }
-        [Key]
-        public int GroupId { get; set; }
-        [Required]
-        public bool YesOrNo { get; set; }
+
+        public bool YayOrNay { get; set; }
+
+        public string Comments { get; set; }
     }
 }

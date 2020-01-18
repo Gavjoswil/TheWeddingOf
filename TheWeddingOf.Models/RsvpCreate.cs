@@ -13,7 +13,8 @@ namespace TheWeddingOf.Models
         public string Names { get; set; }
         public int FoodTwo { get; set; }
         public int FoodOne { get; set; }
-
+        public bool YayOrNay { get; set; }
+        public string Comments { get; set; }
         public override string ToString() => Names;
     }
 }

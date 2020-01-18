@@ -1,4 +1,3 @@
-C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\obj\Debug\TheWeddingOf.Web.csprojAssemblyReference.cache
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\TheWeddingOf.Web.dll.config
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\TheWeddingOf.Web.dll
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\TheWeddingOf.Web.pdb
@@ -27,16 +26,11 @@ C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\roslyn\System.Diagnostics.St
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\roslyn\System.IO.Compression.dll
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\roslyn\System.IO.FileSystem.dll
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\roslyn\System.IO.Pipes.AccessControl.dll
-C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\roslyn\System.IO.Pipes.dll
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\roslyn\System.Reflection.Metadata.dll
-C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\roslyn\System.Security.AccessControl.dll
-C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\roslyn\System.Security.Claims.dll
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\roslyn\System.Security.Principal.Windows.dll
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\roslyn\System.ValueTuple.dll
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\roslyn\System.Xml.ReaderWriter.dll
@@ -57,7 +51,6 @@ C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\Microsoft.AspNet.Identity.Ow
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\Microsoft.Owin.dll
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
-C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\Microsoft.Owin.Security.Cookies.dll
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\Microsoft.Owin.Security.dll
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\Microsoft.Owin.Security.Facebook.dll
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\Microsoft.Owin.Security.Google.dll
@@ -108,6 +101,15 @@ C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\Microsoft.Owin.Security.Twit
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\Microsoft.Owin.Security.OAuth.xml
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\obj\Debug\TheWeddingOf.Web.csprojAssemblyReference.cache
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\obj\Debug\TheWeddingOf.Web.csproj.CopyComplete
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\obj\Debug\TheWeddingOf.Web.dll
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\obj\Debug\TheWeddingOf.Web.pdb
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\roslyn\System.Globalization.Calendars.dll
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\roslyn\System.Net.Http.dll
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\roslyn\System.Net.Sockets.dll
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\roslyn\System.Threading.Tasks.Extensions.dll

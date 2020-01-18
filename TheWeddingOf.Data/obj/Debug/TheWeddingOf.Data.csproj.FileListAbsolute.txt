@@ -1,4 +1,3 @@
-C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Data\obj\Debug\TheWeddingOf.Data.csprojAssemblyReference.cache
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Data\bin\Debug\TheWeddingOf.Data.dll.config
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Data\bin\Debug\TheWeddingOf.Data.dll
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Data\bin\Debug\TheWeddingOf.Data.pdb
@@ -13,3 +12,6 @@ C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Data\bin\Debug\Microsoft.AspNet.Iden
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Data\obj\Debug\TheWeddingOf.Data.csproj.CopyComplete
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Data\obj\Debug\TheWeddingOf.Data.dll
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Data\obj\Debug\TheWeddingOf.Data.pdb
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Data\obj\Debug\TheWeddingOf.Data.csprojAssemblyReference.cache
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Data\obj\Debug\TheWeddingOf.Data.Migrations.Attempt.resources
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Data\obj\Debug\TheWeddingOf.Data.csproj.GenerateResource.cache

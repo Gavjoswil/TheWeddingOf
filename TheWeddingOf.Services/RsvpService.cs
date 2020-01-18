@@ -24,7 +24,9 @@ namespace TheWeddingOf.Services
                 {
                     Names = model.Names,
                     FoodOne = model.FoodOne,
-                    FoodTwo = model.FoodTwo
+                    FoodTwo = model.FoodTwo,
+                    YayOrNay  = model.YayOrNay,
+                    Comments =  model.Comments
                 };
             using (var ctx = new ApplicationDbContext())
             {
@@ -44,6 +46,7 @@ namespace TheWeddingOf.Services
                             e =>
                                 new RsvpListItem
                                 {
+                                    RsvpId = e.RsvpId,
                                     Names = e.Names,
                                     FoodOne = e.FoodOne,
                                     FoodTwo = e.FoodTwo
@@ -53,5 +56,45 @@ namespace TheWeddingOf.Services
                 return query.ToArray();
             }
         }
+
+        public bool UpdateRsvp(RsvpEdit model)
+        {
+            using(var ctx = new ApplicationDbContext())
+            {
+                var entity =
+                    ctx
+                        .Rsvps
+                        .Single(e => e.RsvpId ==  model.RsvpId);
+
+                entity.FoodOne = model.FoodOne;
+                entity.FoodTwo = model.FoodTwo;
+                entity.YayOrNay = model.YayOrNay;
+                entity.Comments = model.Comments;
+
+                return ctx.SaveChanges() == 1;
+            }
+        }
+
+        public RsvpEdit GetRsvpById(int rsvpId)
+        {
+            using(var ctx = new ApplicationDbContext())
+            {
+                var entity =
+                    ctx
+                        .Rsvps
+                        .Single(e => e.RsvpId == rsvpId);
+                return
+                    new RsvpEdit
+                    {
+                        RsvpId = entity.RsvpId,
+                        Names = entity.Names,
+                        FoodOne = entity.FoodOne,
+                        FoodTwo = entity.FoodTwo,
+                        YayOrNay = entity.YayOrNay,
+                        Comments = entity.Comments
+                    };
+            }
+        }
+
     }
 }
