@@ -2536,12 +2536,12 @@ textarea.form-control {
 @media (prefers-reduced-motion: reduce) {
   .btn {
     transition: none;
+    border-bottom: solid 2px;
   }
 }
 
 .btn:hover {
-  color: #212529;
-  text-decoration: none;
+  color:navy;
 }
 
 .btn:focus, .btn.focus {
@@ -2670,15 +2670,12 @@ fieldset:disabled a.btn {
 }
 
 .btn-info {
-  color: #fff;
-  background-color: #17a2b8;
-  border-color: #17a2b8;
+  color: black;
 }
 
 .btn-info:hover {
-  color: #fff;
-  background-color: #138496;
-  border-color: #117a8b;
+  color: black;
+  border-bottom: 2px solid;
 }
 
 .btn-info:focus, .btn-info.focus {

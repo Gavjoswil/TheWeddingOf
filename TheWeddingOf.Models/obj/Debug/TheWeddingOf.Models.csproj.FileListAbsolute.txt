@@ -13,3 +13,4 @@ C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Models\obj\Debug\TheWeddingOf.Models
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Models\obj\Debug\TheWeddingOf.Models.csproj.CopyComplete
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Models\obj\Debug\TheWeddingOf.Models.dll
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Models\obj\Debug\TheWeddingOf.Models.pdb
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Models\obj\Debug\TheWeddingOf.Models.csproj.CoreCompileInputs.cache

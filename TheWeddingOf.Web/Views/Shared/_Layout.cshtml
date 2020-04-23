@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html>
+<html style="">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,39 +8,60 @@
     @Scripts.Render("~/bundles/modernizr")
 
 </head>
-<body style="background: url(../../img/background_img.jpg) no-repeat center; background-size:cover;">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand btn btn-dark" style="text-decoration:none;" href="/Home/Index">J & G</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+<body style="background-image: url(../../img/background_img.jpg); background-attachment:fixed; background-position:center; background-repeat:no-repeat; background-size:cover;">
+    <br />
+    <br />
+    <div class="text-center mr-auto ml-auto" style="width: 70%;">
+        <h1>Jacquelyn and Gavin</h1>
+        <p class="lead">October 3, 2020 &bull; East Peoria, IL</p>
+        <p id="days"></p>
+        <div>
+            <script type="text/javascript">
+            var weddingDate = new Date("2020, 10, 3").getTime();
+
+            var now = new Date().getTime();
+
+            var countdown = weddingDate - now;
+
+            var d = Math.floor(countdown / (1000 * 60 * 60 * 24));
+
+            document.getElementById("days").innerHTML = d + " Days to go! ";
+            </script>
+        </div>
+    </div>
+    <hr style="width: 70%; margin:0;" class="ml-auto mr-auto"/>
+    <nav class="navbar navbar-expand-lg">
+        <button class="navbar-toggler ml-auto mr-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="btn" style="background-color:#800020; color:white;">&#9776;</span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mr-auto">
-                @if (User.Identity.Name == "gjosephw24@gmail.com")
-                {
-                    <li class="nav-item active">
-                        <a class="nav-link btn btn-dark" style="text-decoration:none;" href="/Rsvp/Index">RSVP List</a>
-                    </li>
-                }
-                <li class="nav-item active">
-                    <a class="nav-link btn btn-dark" style="text-decoration:none;" href="/Rsvp/Index">RSVP</a>
+            <ul class="navbar-nav mr-auto ml-auto">
+                <li class="nav-item active mr-auto ml-auto pr-3 pl-3">
+                    <a class="nav-link btn" style="text-decoration:none;" href="/Home/Index">Home</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link btn btn-dark" style="text-decoration:none;" href="/Home/Registry">Registry</a>
+                <li class="nav-item active mr-auto ml-auto pr-3 pl-3">
+                    <a class="nav-link btn" style="text-decoration:none;" href="/Rsvp/Index">RSVP</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link btn btn-dark" style="text-decoration:none;" href="/Home/Travel">Travel</a>
+                <li class="nav-item active mr-auto ml-auto pr-3 pl-3">
+                    <a class="nav-link btn" style="text-decoration:none;" href="/Home/Registry">Registry</a>
+                </li>
+                <li class="nav-item active mr-auto ml-auto pr-3 pl-3">
+                    <a class="nav-link btn" style="text-decoration:none;" href="/Home/Travel">Hotel</a>
                 </li>
             </ul>
-            @Html.Partial("_LoginPartial")
+            <!--s@Html.Partial("_LoginPartial")-->
         </div>
     </nav>
+    <hr style="width:70%; margin:0;" class="ml-auto mr-auto"/>
     <div class="container body-content">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - TheWeddingOf</p>
-        </footer>
+        <div class="mt-auto">
+            <hr />
+            <footer>
+                <h5 class="text-center">J & G</h5>
+                <p class="text-center">&copy; @DateTime.Now.Year - TheWeddingOf</p>
+            </footer>
+        </div>
     </div>
 
     @Scripts.Render("~/bundles/jquery")

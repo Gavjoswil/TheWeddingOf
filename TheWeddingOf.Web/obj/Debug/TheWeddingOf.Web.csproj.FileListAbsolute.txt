@@ -113,3 +113,4 @@ C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\roslyn\System.Net.Http.dll
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\roslyn\System.Net.Sockets.dll
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Web\obj\Debug\TheWeddingOf.Web.csproj.CoreCompileInputs.cache

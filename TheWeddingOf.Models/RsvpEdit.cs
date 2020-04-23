@@ -14,6 +14,7 @@ namespace TheWeddingOf.Models
         public int RsvpId { get; set; }
         public int FoodTwo { get; set; }
         public int FoodOne { get; set; }
+        [Display(Name ="Yes or No")]
         public bool YayOrNay { get; set; }
         public string Comments { get; set; }
         public override string ToString() => Comments;

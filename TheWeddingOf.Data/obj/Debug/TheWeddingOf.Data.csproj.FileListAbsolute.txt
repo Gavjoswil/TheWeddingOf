@@ -15,3 +15,4 @@ C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Data\obj\Debug\TheWeddingOf.Data.pdb
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Data\obj\Debug\TheWeddingOf.Data.csprojAssemblyReference.cache
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Data\obj\Debug\TheWeddingOf.Data.Migrations.Attempt.resources
 C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Data\obj\Debug\TheWeddingOf.Data.csproj.GenerateResource.cache
+C:\DotNetProjects\TheWeddingOf\TheWeddingOf.Data\obj\Debug\TheWeddingOf.Data.csproj.CoreCompileInputs.cache

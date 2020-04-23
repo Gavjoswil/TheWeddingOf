@@ -4,9 +4,6 @@
     ViewBag.Title = "Index";
 }
 
-<h2>RSVP</h2>
-<p>Find your name on the list and click RSVP!</p>
-
 <p>
     @if (User.Identity.Name == "gjosephw24@gmail.com")
     {
@@ -14,22 +11,23 @@
     }
 </p>
 
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Names)
-        </th>
-    </tr>
+<div class="card text-center shadow-lg mr-auto ml-auto" style="width: 70%;">
+    <br />
+    <h2>RSVP</h2>
+    <p>Find your name on the list and click RSVP!</p>
+    <br />
+    <table class="table">
 
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Names)
-            </td>
-            <td>
-                @Html.ActionLink("RSVP", "Edit", new { id = item.RsvpId }, new { @style="background-color:#800020; color:white;", @class = "btn btn-default btn-lg"})
-            </td>
-        </tr>
-    }
-</table>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Names)
+                </td>
+                <td>
+                    <a style="background-color:#800020; color:white; text-decoration:none;" class="btn shadow-lg" href="@Url.Action("Edit", "Rsvp", new { id = item.RsvpId })">RSVP &raquo;</a>
+                </td>
+            </tr>
+        }
+    </table>
+</div>

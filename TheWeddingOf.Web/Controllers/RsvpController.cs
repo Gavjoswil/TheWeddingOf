@@ -58,7 +58,6 @@ namespace TheWeddingOf.Web.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, RsvpEdit model)
         {
             if (!ModelState.IsValid) return View(model);

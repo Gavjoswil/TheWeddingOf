@@ -127,8 +127,8 @@ a {
 }
 
 a:hover {
-  color: #0056b3;
-  text-decoration: underline;
+  color: navy;
+  border-bottom:2px solid;
 }
 
 a:not([href]) {
