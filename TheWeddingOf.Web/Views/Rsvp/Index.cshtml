@@ -22,7 +22,7 @@
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Names)
+                    <strong>@Html.DisplayFor(modelItem => item.Names)</strong>
                 </td>
                 <td>
                     <a style="background-color:#800020; color:white; text-decoration:none;" class="btn shadow-lg" href="@Url.Action("Edit", "Rsvp", new { id = item.RsvpId })">RSVP &raquo;</a>

@@ -11,6 +11,8 @@
 <body style="background-image: url(../../img/background_img.jpg); background-attachment:fixed; background-position:center; background-repeat:no-repeat; background-size:cover;">
     <br />
     <br />
+    @if (ViewBag.Title != "Log in")
+    {
     <div class="text-center mr-auto ml-auto" style="width: 70%;">
         <h1>Jacquelyn and Gavin</h1>
         <p class="lead">October 3, 2020 &bull; East Peoria, IL</p>
@@ -49,9 +51,9 @@
                     <a class="nav-link btn" style="text-decoration:none;" href="/Home/Travel">Hotel</a>
                 </li>
             </ul>
-            <!--s@Html.Partial("_LoginPartial")-->
         </div>
     </nav>
+    }
     <hr style="width:70%; margin:0;" class="ml-auto mr-auto"/>
     <div class="container body-content">
         @RenderBody()

@@ -23,5 +23,6 @@ namespace TheWeddingOf.Data
         public bool YayOrNay { get; set; }
 
         public string Comments { get; set; }
+
     }
 }

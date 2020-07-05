@@ -7,7 +7,6 @@
 
 @using (Html.BeginForm())
 {
-    @Html.AntiForgeryToken()
     
     <br />
     <div class="form-horizontal text-center card shadow-lg ml-auto mr-auto" style="width:70%">
@@ -26,26 +25,25 @@
         <div class="form-group">
             @Html.LabelFor(model => model.YayOrNay, htmlAttributes: new { @class = "control-label col-md-2 mr-auto ml-auto" })
             <div class="">
-                <div class="checkbox">
-                    @Html.EditorFor(model => model.YayOrNay)
+                <div class="">
+                    <label>✓</label>
+                    @Html.RadioButtonFor(model => model.YayOrNay, true)
+                    
+                    <label>✗</label>
+                    @Html.RadioButtonFor(model => model.YayOrNay, false)
                     @Html.ValidationMessageFor(model => model.YayOrNay, "", new { @class = "text-danger" })
                 </div>
             </div>
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.FoodTwo, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="">
-                @Html.EditorFor(model => model.FoodTwo, new { htmlAttributes = new { @class = "form-control ml-auto mr-auto" } })
-                @Html.ValidationMessageFor(model => model.FoodTwo, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.FoodOne, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="">
-                @Html.EditorFor(model => model.FoodOne, new { htmlAttributes = new { @class = "form-control ml-auto mr-auto" } })
-                @Html.ValidationMessageFor(model => model.FoodOne, "", new { @class = "text-danger" })
+            @Html.LabelFor(model => model.FoodOne, htmlAttributes: new { @class = "control-label col-md-2 mr-auto ml-auto" })
+            <div>
+                <label>Chicken</label>
+                @Html.RadioButtonFor(model => model.FoodOne, 1, new { @name = "foodOptions" })
+                <br />
+                <label>Tortellini</label>
+                @Html.RadioButtonFor(model => model.FoodOne, 2, new { @name = "foodOptions" })
             </div>
         </div>
 

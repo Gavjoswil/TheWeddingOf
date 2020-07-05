@@ -15,7 +15,7 @@ namespace TheWeddingOf.Services
         public RsvpService(Guid userId)
         {
             _userId = userId;
-        }
+        } 
 
         public bool CreateRsvp(RsvpCreate model)
         {
@@ -48,8 +48,6 @@ namespace TheWeddingOf.Services
                                 {
                                     RsvpId = e.RsvpId,
                                     Names = e.Names,
-                                    FoodOne = e.FoodOne,
-                                    FoodTwo = e.FoodTwo
                                 }
                                                     
                             );

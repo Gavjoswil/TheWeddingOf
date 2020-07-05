@@ -13,8 +13,9 @@ namespace TheWeddingOf.Models
         [Key]
         public int RsvpId { get; set; }
         public int FoodTwo { get; set; }
+        [Display(Name = "Food Options")]
         public int FoodOne { get; set; }
-        [Display(Name ="Yes or No")]
+        [Display(Name ="RSVP")]
         public bool YayOrNay { get; set; }
         public string Comments { get; set; }
         public override string ToString() => Comments;

@@ -13,10 +13,6 @@ namespace TheWeddingOf.Models
         public int RsvpId { get; set; }
         [Display(Name ="Name")]
         public string Names { get; set; }
-        [Display(Name="Spaghetti")]
-        public int FoodTwo { get; set; }
-        [Display(Name="Ravioli")]
-        public int FoodOne { get; set; }
 
 
 

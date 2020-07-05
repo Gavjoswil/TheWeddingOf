@@ -16,7 +16,7 @@ namespace TheWeddingOf.Web.Controllers
             var userId = Guid.Parse(User.Identity.GetUserId());
             var service = new RsvpService(userId);
             var model = service.GetRsvps();
-            
+
             return View(model);
         }
 
