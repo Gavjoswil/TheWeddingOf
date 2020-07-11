@@ -36,5 +36,10 @@ namespace TheWeddingOf.Web.Controllers
         {
             return View();
         }
+
+        public ActionResult Photos()
+        {
+            return View();
+        }
     }
 }
