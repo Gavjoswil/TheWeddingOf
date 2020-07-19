@@ -312,6 +312,14 @@
       <Project>{9423db92-b7e4-46a8-a51c-1c2480ff40f8}</Project>
       <Name>TheWeddingOf.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TheWeddingOf.Models\TheWeddingOf.Models.csproj">
+      <Project>{514e93cb-f3d4-4507-bcd5-7e818283b691}</Project>
+      <Name>TheWeddingOf.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TheWeddingOf.Services\TheWeddingOf.Services.csproj">
+      <Project>{aafac836-cc4d-4de9-9e59-28915523a41a}</Project>
+      <Name>TheWeddingOf.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
