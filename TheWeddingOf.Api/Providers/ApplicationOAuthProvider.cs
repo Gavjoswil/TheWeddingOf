@@ -10,6 +10,7 @@ using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
 using TheWeddingOf.Api.Models;
+using TheWeddingOf.Data;
 
 namespace TheWeddingOf.Api.Providers
 {

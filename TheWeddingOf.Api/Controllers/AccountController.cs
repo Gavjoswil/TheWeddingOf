@@ -16,6 +16,7 @@ using Microsoft.Owin.Security.OAuth;
 using TheWeddingOf.Api.Models;
 using TheWeddingOf.Api.Providers;
 using TheWeddingOf.Api.Results;
+using TheWeddingOf.Data;
 
 namespace TheWeddingOf.Api.Controllers
 {
